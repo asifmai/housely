@@ -347,6 +347,21 @@ body {
   background-color: #ffba3f;
 }
 
+.houseCard .cardImg .overlay {
+  position: absolute;
+  bottom: 7px;
+  right: 6px;
+  left: 5px;
+  top: 4px;
+  background-color: transparent;
+  border-radius: 23px;
+  transition: 100ms all ease-in-out;
+}
+
+.houseCard:hover .overlay {
+  background-color: rgba(20, 97, 210, 0.2);
+}
+
 .houseCards .mainText {
   font-size: 1.2em;
   margin-bottom: 0.7em;
@@ -705,5 +720,8 @@ body {
   }
   .main-video {
     margin-top: 3em;
+  }
+  .cardsSection .cardItem {
+    background-size: 110%;
   }
 }
